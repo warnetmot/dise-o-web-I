@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Concatenar Elementos</title>
+</head>
+<body>
+  <h1>Concatenar</h1>
+  <input type="text" id="elementInput" placeholder="Ingrese un cualquier elemento">
+  <button onclick="agregarelemento()">Agregar</button>
+  <button onclick="concatenarelementos()">Concatenar </button>
+  <div id="concatenatedElements"></div>
+  <script>
+    const elementos = [];
+
+    function agregarelemento() {
+      const elemento = document.getElementById('elementInput').value;
+      elementos.push(elemento);
+      document.getElementById('elementInput').value = '';
+      actualizar();
+    }
+
+    function concatenarelementos() {
+      const concatenated = elementos.join(' * ');
+      document.getElementById('concatenatedElements').textContent = concatenated;
+    }
+
+    function actualizar() {
+      const concatenated = elementos.join(' * ');
+      document.getElementById('concatenatedElements').textContent = concatenated;
+    }
+  </script>
+</body>
+</html>

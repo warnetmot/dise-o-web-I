@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ingrese elementos por teclado</title>
+</head>
+<body>
+  <h1>ingrese un numero cualquera </h1>
+  <h2>no importa el orden que tenga </h2>
+  <input type="text" id="elementInput" placeholder="ingrese un numero">
+  <button onclick="agregarelemento()">agregar</button>
+  <button onclick="ordenarelementos()">ordenar</button>
+  <button onclick = "limpiarelementos()">limpiar</button>
+  <ul id="elementList"></ul>
+
+
+  <script>
+    const elementos = [];
+
+    function agregarelemento() {
+      const elemento = document.getElementById('elementInput').value;
+      elementos.push(elemento);
+      document.getElementById('elementInput').value = '';
+      actualizar();
+    }
+
+    function ordenarelementos() {
+      elementos.sort();
+      actualizar();
+    }
+
+    function actualizar() {
+      const elementList = document.getElementById('elementList');
+      elementList.innerHTML = '';
+      for (const elemento of elementos) {
+        const listItem = document.createElement('li');
+        listItem.textContent = elemento;
+        elementList.appendChild(listItem);
+      }
+    }
+    function limpiarelementos(){
+        
+        
+    }
+  </script>
+</body>
+</html>
