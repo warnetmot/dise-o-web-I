@@ -1,0 +1,9 @@
+.banner__titulo{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0);
+    top: 50%;
+    text-align: center;
+}

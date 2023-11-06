@@ -1,0 +1,6 @@
+.productos{
+    background: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
