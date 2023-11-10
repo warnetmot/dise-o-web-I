@@ -1,0 +1,24 @@
+.ban_titulo{
+    color: rgb(244, 244, 245);
+    font-family: lelacer ;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0);
+    top: 88%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+.ban_titulo2{
+    color: rgb(244, 244, 245);
+    font-family: lelacer ;
+    font-size: 2rem;
+    position: absolute;
+    left: 60%;
+    text-shadow: 0 4px 4px rgba(244, 244, 244);
+    top: 110%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}

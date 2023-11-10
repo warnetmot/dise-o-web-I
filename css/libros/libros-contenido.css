@@ -1,0 +1,12 @@
+.libros_contenido{
+    color: rgb(244, 244, 245);
+    font-family: lelacer ;
+    font-size: 2rem;
+    position: absolute;
+    left: 70%;
+    text-shadow: 0 4px 4px rgb(0, 0, 0, 0);
+    top: 130%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}

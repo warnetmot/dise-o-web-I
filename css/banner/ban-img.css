@@ -1,0 +1,21 @@
+.ban_img {
+    background: url(/imagenes/911819.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+   
+}
+
+@media screen and (min-width: 0) {
+    .ban_img {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ban_img {
+        height: calc(100vh - 80px);
+    }
+}

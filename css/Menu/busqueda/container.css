@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex; 
+    justify-content: flex-end;
+    
+}
+input {
+    
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+button {
+    background: rgb(251, 251, 251);
+    padding: auto ;
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+}
+.end{
+    justify-content: flex-end;
+    text-align: right;
+}

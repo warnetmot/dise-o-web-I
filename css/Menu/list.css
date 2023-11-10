@@ -1,0 +1,16 @@
+.bodi{
+    
+    background-color: rgb(1, 0, 0);
+}
+.list{
+    color: rgb(244, 236, 236);
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.list :hover{
+    color:rgb(238, 234, 234);
+    text-decoration: overline;
+}
+.img{
+    justify-content: flex-end;
+}
